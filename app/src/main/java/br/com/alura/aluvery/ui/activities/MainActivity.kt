@@ -79,5 +79,7 @@ fun App(
 @Preview
 @Composable
 fun AppPreview(){
-    App()
+    App{
+        HomeScreen(sections = sampleSections)
+    }
 }
